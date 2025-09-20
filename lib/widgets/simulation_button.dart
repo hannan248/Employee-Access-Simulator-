@@ -1,3 +1,4 @@
+// lib/widgets/simulation_button.dart
 import 'package:flutter/material.dart';
 
 class SimulationButton extends StatelessWidget {
@@ -46,7 +47,7 @@ class SimulationButton extends StatelessWidget {
             ),
             const SizedBox(width: 8),
             Text(
-              isSimulated ? 'Run Simulation Again' : 'Simulate Access',
+              isSimulated ? 'Run New Simulation' : 'Simulate Access',
               style: const TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
