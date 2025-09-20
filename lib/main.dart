@@ -1,4 +1,4 @@
-import 'package:employee_access_simulator/access_simulator_screen.dart';
+import 'package:employee_access_simulator/screens/access_simulator_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
